@@ -1,0 +1,9 @@
+<div class="container">
+	<h1 class="header">Book Shelf</h1>
+	<book-shelf data="mc.data" ng-show="mc.show"></book-shelf>
+	<div class="alert alert-danger errors" ng-hide="mc.show">
+		<div class="vertical">
+			<h1>{{ mc.err }}</h1>
+		</div>
+	</div>
+</div>

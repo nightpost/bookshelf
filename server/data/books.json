@@ -1,0 +1,26 @@
+[
+    {
+        "id": 100,
+        "author" : "Ari Lerner",
+        "date" : "2015",
+        "title" : "ng-book"
+    },
+    {
+        "id": 110,
+        "author" : "E. M. Remarque",
+        "date" : "1945",
+        "title" : "Arch of Triumph"
+    },
+    {
+        "id": 120,
+        "author" : "Allen Ginsberg",
+        "date" : "1955",
+        "title" : "Howl"
+    },
+    {
+        "id": 130,
+        "author" : "C. P. Baudelaire",
+        "date" : "1857",
+        "title" : "The Flowers of Evil"
+    }
+]

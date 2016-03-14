@@ -1,0 +1,10 @@
+<div class="list-form">
+	<ul class="list list-unstyled">
+		<li ng-repeat="book in data">
+			<input type="checkbox" ng-model="tableSelection[$index]">
+			<span>{{ book.author }} "{{ book.title }}"-{{ book.date }}</span>
+			<input type="button" class="btn btn-success update" ng-click="editBook($index, book)" value="update">
+			<input type="button" class="btn btn-danger remove" ng-show="tableSelection[$index]" ng-click="removeBooks()" value="remove all">
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,62 @@
+input[type="checkbox"] {
+	margin: 10px 20px 20px 0px;
+	cursor: pointer;
+}
+
+input.update[type="button"] {
+	display: inline-block;
+	float: right;
+	margin-top: -3px;
+}
+
+input.remove[type="button"] {
+	display: block;
+	width: 100%;
+	margin-top: 2px;
+}
+
+input[type="text"], label {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.header {
+	text-align: center;
+}
+
+.list-form, .edit-form {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.list li {
+	border-bottom: 1px solid #000;
+	margin: 15px 0px 0px 0px;
+}
+
+.list li:last-child {
+	border-bottom: none;
+}
+
+.list span {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.errors {
+	display: table;
+	width: 500px;
+	height: 300px;
+	margin: 40px auto;
+}
+
+.vertical {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.vertical h1 {
+	font-size: 26px;
+	line-height: 26px;
+	text-align: center;
+}
